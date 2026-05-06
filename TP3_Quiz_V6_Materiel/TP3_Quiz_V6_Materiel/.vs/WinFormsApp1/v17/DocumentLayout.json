@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ECB3604D-7C97-4F14-8F86-5D72B48C5BD4}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\6325048\\desktop\\tp3\\tp3_quiz_v6_materiel\\tp3_quiz_v6_materiel\\winformsapp1\\frmquiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ECB3604D-7C97-4F14-8F86-5D72B48C5BD4}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\frmquiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECB3604D-7C97-4F14-8F86-5D72B48C5BD4}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\6325048\\desktop\\tp3\\tp3_quiz_v6_materiel\\tp3_quiz_v6_materiel\\winformsapp1\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ECB3604D-7C97-4F14-8F86-5D72B48C5BD4}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmQuiz.cs [Conception]",
+              "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\WinFormsApp1\\FrmQuiz.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\FrmQuiz.cs",
+              "ToolTip": "C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\WinFormsApp1\\FrmQuiz.cs [Conception]",
+              "RelativeToolTip": "WinFormsApp1\\FrmQuiz.cs [Conception]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T16:47:15.518Z",
+              "EditorCaption": " [Conception]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmPrincipal.cs [Conception]",
+              "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\WinFormsApp1\\FrmPrincipal.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\FrmPrincipal.cs",
+              "ToolTip": "C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\WinFormsApp1\\FrmPrincipal.cs [Conception]",
+              "RelativeToolTip": "WinFormsApp1\\FrmPrincipal.cs [Conception]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T16:47:07.327Z",
+              "EditorCaption": " [Conception]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
