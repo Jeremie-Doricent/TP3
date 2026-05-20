@@ -11,7 +11,7 @@ namespace Models
     {
         private string m_enonce;
         private int m_point;
-        private string m_option;
+        private  List<string>  m_option;
 
         private string m_indice;
         private int m_penaliteIndice;
@@ -34,16 +34,18 @@ namespace Models
         {
             get { return m_option; }
             set
-            { if (value == null )  { throw new ArgumentNullException(); }
-            
-                if ( value.Count < 2)
+            {
+                if (value == null) { throw new ArgumentNullException(); }
+
+                if (value.Count < 2)
                 {
-                    throw new ArgumentException();
+                    throw new ArgumentException("Il faut au moins 2 options.");
                 }
+
                 m_option = value;
             }
         }
-         
+
         public string Indice
         {
             get { return m_indice ; }
@@ -66,6 +68,7 @@ namespace Models
         
             
         }
+        public BonneREponse
     }
     
 }
