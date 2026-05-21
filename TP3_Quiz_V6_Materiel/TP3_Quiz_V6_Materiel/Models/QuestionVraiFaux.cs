@@ -7,7 +7,7 @@ using Models.Interfaces;
 
 namespace Models
 {
-    public class QuestionVraiFaux: IQuestion
+    public class QuestionVraiFaux: Question
     {
         public string Enonce { get; set; }
         public Categorie Categorie { get; set; }

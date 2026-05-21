@@ -9,22 +9,14 @@ namespace Models
 {
     internal class QuestionReponseMultiples : Question
     {
-        private List<string>? m_option;
+        string Enonce { get; set; }
 
-        public List<string> Options
-        {
-            get { return m_option; }
-            set
-            {
-                if (value == null) { throw new ArgumentNullException(); }
+        Categorie Categorie { get; set; }
+        int Points { get; }
+        int BonneReponse { get; set; }
+        bool ValiderReponse(string reponse);
+        double CorrigerReponse(string reponse);
 
-                if (value = "")
-                {
-                    throw new ArgumentNullException();
-                }
 
-                m_option = value;
-            }
-        }
     }
 }

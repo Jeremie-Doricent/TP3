@@ -8,26 +8,28 @@ using Models.Interfaces;
 
 namespace Models
 {
-    public class Question
-    {
-      
-        private List<string>? m_option;
+    public class QuestionReponseUnique : Question
+    { Question sq = new Question();
 
-        public List<string> Options 
-        {
-            get { return m_option;} 
-            set
-            {
-                if (value == null) { throw new ArgumentNullException(); }
+        private List<string> m_unique;
+        string Enonce { get; set; }
 
-               if(value ="")
-                {
-                    throw new ArgumentNullException();
-                }
+        Categorie Categorie { get; set; }
+        int Points { get; }
 
-                m_option = value.Trim();
-            }
-        }
+        int BonneReponse { get; set; }
+        bool ValiderReponse(string reponse);
+        double CorrigerReponse(string reponse);
+
+        public List<string> option { get {return m_unique ; }
+            set { if (value == null) 
+                { throw new ArgumentNullException(); }
+
+
+              
+
+
+            } }
     }
 }
 

@@ -12,12 +12,12 @@ namespace Models
         private string m_enonce;
         private int m_point;
         private  List<string>  m_option;
-
+        private bool m_bonneReponse;
         private string m_indice;
         private int m_penaliteIndice;
         public string Enonce 
         {  get { return m_enonce; } 
-            set { if (value == null || value == "") 
+            set { if (value.Trim() == null || value.Trim() == "") 
                 { throw new ArgumentException(); }
                     m_enonce = value.Trim();
             }
@@ -68,7 +68,11 @@ namespace Models
         
             
         }
-        public BonneREponse
+        public bool BonneREponse { get { return m_bonneReponse; } set { ; } }
+
+        public bool ValiderReponse(string reponse);
+       public double CorrigerReponse(string reponse);
+          public  Categorie Categorie { get; }
     }
     
 }

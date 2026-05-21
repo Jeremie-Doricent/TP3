@@ -7,7 +7,27 @@ using Models.Interfaces;
 
 namespace Models
 {
-    internal class QuestionNumerique :Question ,IQuestion
+    public class QuestionNumerique :Question 
     {
+        
+        
+            string Enonce { get; set; }
+
+            Categorie Categorie { get; set; }
+            int Points { get; }
+             int BonneReponse { get; set; }
+            bool ValiderReponse(string reponse);
+            double CorrigerReponse(string reponse);
+        
+        
+        
+        
+
+
+
+
+
     }
+
 }
+

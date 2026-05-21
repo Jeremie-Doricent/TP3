@@ -1,0 +1,5 @@
+C:\Users\6325048\Desktop\TP3\TP3_Quiz_V6_Materiel\TP3_Quiz_V6_Materiel\Models\obj\Debug\net8.0\Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\6325048\Desktop\TP3\TP3_Quiz_V6_Materiel\TP3_Quiz_V6_Materiel\Models\obj\Debug\net8.0\Models.AssemblyInfoInputs.cache
+C:\Users\6325048\Desktop\TP3\TP3_Quiz_V6_Materiel\TP3_Quiz_V6_Materiel\Models\obj\Debug\net8.0\Models.AssemblyInfo.cs
+C:\Users\6325048\Desktop\TP3\TP3_Quiz_V6_Materiel\TP3_Quiz_V6_Materiel\Models\obj\Debug\net8.0\Models.csproj.CoreCompileInputs.cache
+C:\Users\6325048\Desktop\TP3\TP3_Quiz_V6_Materiel\TP3_Quiz_V6_Materiel\Models\obj\Debug\net8.0\Models.sourcelink.json
