@@ -1,78 +1,42 @@
-﻿using System;
+﻿using Models.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Models.Interfaces;
 
 namespace Models
 {
-    public class Question: IQuestion
+    public abstract  class Question : IQuestion
     {
         private string m_enonce;
         private int m_point;
-        private  List<string>  m_option;
-        private bool m_bonneReponse;
-        private string m_indice;
-        private int m_penaliteIndice;
-        public string Enonce 
-        {  get { return m_enonce; } 
-            set { if (value.Trim() == null || value.Trim() == "") 
+        public string Enonce
+        {
+            get { return m_enonce; }
+            set
+            {
+                if (value.Trim() == null || value.Trim() == "")
                 { throw new ArgumentException(); }
-                    m_enonce = value.Trim();
+                m_enonce = value.Trim();
             }
         }
-        public int Points { get { return m_point; } 
-            set { if (value < 0) 
-                { throw new ArgumentException(); } 
-            
-            m_point = value;
-            }
-        
-        }
-        public List<string> Options
+
+        public Categorie Categorie { get; }
+        public int Points
         {
-            get { return m_option; }
+            get { return m_point; }
             set
             {
-                if (value == null) { throw new ArgumentNullException(); }
+                if (value < 0)
+                { throw new ArgumentException(); }
 
-                if (value.Count < 2)
-                {
-                    throw new ArgumentException("Il faut au moins 2 options.");
-                }
-
-                m_option = value;
+                m_point = value;
             }
+
         }
-
-        public string Indice
-        {
-            get { return m_indice ; }
-            set
-            {
-                if (value == null) { throw new ArgumentException(); }
-
-            
-            m_indice = value;
-            }
-        }
-      
-        public int PenaliteIndice {
-
-            get { return m_penaliteIndice; }
-            set { if (value < 0 || value > 1) { throw new ArgumentOutOfRangeException(); }
-            
-            PenaliteIndice = value;
-            }
-        
-            
-        }
-        public bool BonneREponse { get { return m_bonneReponse; } set { ; } }
-
-        public bool ValiderReponse(string reponse);
-       public double CorrigerReponse(string reponse);
-          public  Categorie Categorie { get; }
+        public List<string> Option { get; }
+        public abstract bool ValiderReponse(string reponse);
+        public abstract double CorrigerReponse(string reponse);
     }
-    
 }

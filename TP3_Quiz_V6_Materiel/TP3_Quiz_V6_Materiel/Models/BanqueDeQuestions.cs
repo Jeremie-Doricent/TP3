@@ -4,40 +4,65 @@ using Models.Interfaces;
 
 namespace Models
 {
-    /// <summary>
-    /// Représente une banque de questions utilisée pour générer des quiz.
-    /// Contient un ensemble de questions de différents types.
-    /// </summary>
     public class BanqueQuestions
     {
         #region Propriétés
 
-        /// <summary>
-        /// Liste des questions disponibles dans la banque.
-        /// Cette liste est accessible en lecture seule.
-        /// </summary>
         public IReadOnlyList<IQuestion> Questions { get; protected set; }
 
         #endregion
 
         #region Constructeur
 
-        /// <summary>
-        /// Initialise une banque de questions avec un ensemble prédéfini
-        /// de questions de différents types (numériques, vrai/faux, QCM, etc.).
-        /// </summary>
         public BanqueQuestions()
         {
-
             Questions = new List<IQuestion>()
             {
-                ////TODO BQ 1: Ajouter au moins 10 questions de types variés :
-                // -QuestionNumerique
-                // - QuestionVraiFaux
-                // - QuestionReponseUnique
-                // - QuestionReponsesMultiples
-                // - QuestionReponseCourte
+                new QuestionVraiFaux(
+                    "Le langage C# est un langage orienté objet.",
+                    Categorie.Programmation, 1, true),
 
+                new QuestionVraiFaux(
+                    "La terre est plus grande que le soleil.",
+                    Categorie.CultureGenerale, 1, false),
+
+                new QuestionNumerique(
+                    "Quelle est la valeur approximative de PI (2 décimales)?",
+                    Categorie.Mathematiques, 2, 3.14),
+
+                new QuestionNumerique(
+                    "Combien de bits contient un octet?",
+                    Categorie.Programmation, 2, 8),
+
+                new QuestionReponseCourte(
+                    "Quelle est la capitale du Canada?",
+                    Categorie.CultureGenerale, 2, "Ottawa"),
+
+                new QuestionReponseCourte(
+                    "Quel mot-clé permet de créer un objet en C#?",
+                    Categorie.Programmation, 2, "new"),
+
+                new QuestionReponseUnique(
+                    "Quelle est la capitale de la France?",
+                    Categorie.CultureGenerale, 3, "Paris",
+                    new List<string> { "Paris", "Rome", "Madrid", "Berlin" }),
+
+                new QuestionReponseUnique(
+                    "Quel symbole est utilisé pour les commentaires sur une ligne en C#?",
+                    Categorie.Programmation, 3, "//",
+                    new List<string> { "//", "/*", "#", "--" }),
+
+                new QuestionReponseMultiples(
+                    "Quels sont des types de données en C#?",
+                    Categorie.Programmation, 4,
+                    new List<string> { "int", "string", "bool" },
+                    new List<string> { "int", "string", "bool", "excel", "word" }),
+
+                new QuestionReponseMultiples(
+                    "Quels pays sont en Europe?",
+                    Categorie.CultureGenerale, 4,
+                    new List<string> { "France", "Italie" },
+                    new List<string> { "France", "Italie", "Mexique", "Japon" }),
             };
         }
 
@@ -45,21 +70,6 @@ namespace Models
 
         #region Génération de quiz
 
-        /// <summary>
-        /// Génère un nouveau quiz en sélectionnant aléatoirement un nombre donné
-        /// de questions à partir de la banque.
-        /// </summary>
-        /// <param name="nom">Nom du quiz à créer.</param>
-        /// <param name="nombreQuestions">Nombre de questions à inclure.</param>
-        /// <returns>
-        /// Un objet <see cref="Quiz"/> contenant les questions sélectionnées.
-        /// </returns>
-        /// <exception cref="ArgumentOutOfRangeException">
-        /// Lancée si le nombre de questions demandé est inférieur ou égal à 0.
-        /// </exception>
-        /// <exception cref="InvalidOperationException">
-        /// Lancée si le nombre de questions demandé dépasse le nombre disponible.
-        /// </exception>
         public Quiz GenererQuiz(string nom, int nombreQuestions)
         {
             if (nombreQuestions <= 0)
@@ -68,21 +78,15 @@ namespace Models
             if (Questions == null || nombreQuestions > Questions.Count)
                 throw new InvalidOperationException("Il n'y a pas assez de questions dans la banque.");
 
-            // Copie de la liste
             List<IQuestion> questionsCopiees = new List<IQuestion>(Questions);
-
-            // Mélange aléatoire
             OutilsQuiz.MelangerQuestions(questionsCopiees);
 
-            // Sélection des premières questions
             List<IQuestion> questionsSelectionnees = new List<IQuestion>();
-
             for (int i = 0; i < nombreQuestions; i++)
             {
                 questionsSelectionnees.Add(questionsCopiees[i]);
             }
 
-            // Création du quiz
             return new Quiz(nom, questionsSelectionnees);
         }
 

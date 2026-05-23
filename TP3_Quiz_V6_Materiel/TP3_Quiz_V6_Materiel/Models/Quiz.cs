@@ -102,9 +102,12 @@ namespace Models
                 // TODO QUIZ 1: Calculer et retourner le score total obtenu par l'utilisateur
                 // en parcourant toutes les questions et en utilisant la méthode CorrigerReponse.
 
-               
-                return 0;
-
+                double score = 0;
+                foreach (Question question in Questions) {
+                    score += question.CorrigerReponse(Reponses);
+                
+                }
+                return score;
             }
         }
 
@@ -117,9 +120,13 @@ namespace Models
             {
                 // TODO QUIZ 2: Calculer et retourner le score total possible du quiz
                 // en additionnant les points de toutes les questions.
-
+                double score = 0; 
+                foreach (Question item in Questions)
+                {
+                    score += item.Points;
+                }
                
-                return 0;
+                return score;
 
             }
         }
@@ -134,8 +141,17 @@ namespace Models
                 // TODO QUIZ 3: Calculer et retourner le nombre de bonnes réponses
                 // en vérifiant chaque réponse avec la méthode ValiderReponse.
 
-               
-                return 0;
+
+                int score = 0;
+                foreach (Question item in Questions)
+                {
+                   if (item.ValiderReponse(Reponses))
+                    {
+                        score++;
+                    }
+                }
+
+                return score;
 
             }
         }

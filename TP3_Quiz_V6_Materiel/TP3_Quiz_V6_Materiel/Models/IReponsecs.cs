@@ -6,15 +6,8 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    internal interface IReponsecs
+    public interface IReponsecs
     {
-       public string Indice {  get; set; }
-        public bool IndiceUtilise { get; set; }
-        public double PenaliteIndice { get; set; }
-
-        public void utiliserindice()
-        {
-
-        }
+       
     }
 }

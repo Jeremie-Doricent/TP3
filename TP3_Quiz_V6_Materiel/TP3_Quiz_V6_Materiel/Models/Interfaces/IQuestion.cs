@@ -8,13 +8,13 @@ namespace Models.Interfaces
 {
     public interface IQuestion
     {
-        string Enonce { get;  }   
+      public  string Enonce { get;  }   
         
-        Categorie Categorie { get;  }
-        int Points { get;  }
+       public Categorie Categorie { get;  }
+       public int Points { get;  }
 
-        bool ValiderReponse(string reponse);
-        double CorrigerReponse(string reponse);
+       public bool ValiderReponse(string reponse);
+       public double CorrigerReponse(string reponse);
     }
    
 }
