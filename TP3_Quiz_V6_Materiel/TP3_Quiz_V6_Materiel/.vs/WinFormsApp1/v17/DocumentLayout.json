@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\6325048\\Documents\\GitHub\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{103A0384-D415-47F6-898F-1FB08FD365A1}|Models\\Models.csproj|c:\\users\\6325048\\documents\\github\\tp3\\tp3_quiz_v6_materiel\\tp3_quiz_v6_materiel\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{103A0384-D415-47F6-898F-1FB08FD365A1}|Models\\Models.csproj|solutionrelative:models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{103A0384-D415-47F6-898F-1FB08FD365A1}|Models\\Models.csproj|c:\\users\\6325048\\documents\\github\\tp3\\tp3_quiz_v6_materiel\\tp3_quiz_v6_materiel\\models\\questionvraifaux.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{103A0384-D415-47F6-898F-1FB08FD365A1}|Models\\Models.csproj|solutionrelative:models\\questionvraifaux.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{103A0384-D415-47F6-898F-1FB08FD365A1}|Models\\Models.csproj|c:\\users\\6325048\\documents\\github\\tp3\\tp3_quiz_v6_materiel\\tp3_quiz_v6_materiel\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{103A0384-D415-47F6-898F-1FB08FD365A1}|Models\\Models.csproj|solutionrelative:models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{103A0384-D415-47F6-898F-1FB08FD365A1}|Models\\Models.csproj|c:\\users\\6325048\\documents\\github\\tp3\\tp3_quiz_v6_materiel\\tp3_quiz_v6_materiel\\models\\questionreponseunique.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
@@ -103,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Question.cs",
               "DocumentMoniker": "C:\\Users\\6325048\\Documents\\GitHub\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\Models\\Question.cs",
               "RelativeDocumentMoniker": "Models\\Question.cs",
@@ -140,13 +140,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "QuestionVraiFaux.cs",
               "DocumentMoniker": "C:\\Users\\6325048\\Documents\\GitHub\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\Models\\QuestionVraiFaux.cs",
               "RelativeDocumentMoniker": "Models\\QuestionVraiFaux.cs",
               "ToolTip": "C:\\Users\\6325048\\Documents\\GitHub\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\Models\\QuestionVraiFaux.cs",
               "RelativeToolTip": "Models\\QuestionVraiFaux.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAmwAkAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAmwAkAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-06T18:35:39.019Z",
               "EditorCaption": ""
