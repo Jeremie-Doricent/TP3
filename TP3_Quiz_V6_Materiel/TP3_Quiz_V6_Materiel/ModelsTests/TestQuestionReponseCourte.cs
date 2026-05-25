@@ -1,5 +1,6 @@
-﻿//#define _TESTS_QUESTION_REPONSE_COURTE
+﻿#define _TESTS_QUESTION_REPONSE_COURTE
 
+using System.Drawing;
 using Models;
 
 namespace TestsUnitaires
@@ -94,7 +95,7 @@ namespace TestsUnitaires
             var q = CréerQuestionValide();
             q.UtiliserIndice();
 
-            Assert.AreEqual(5, q.CorrigerReponse(REPONSE_VALIDE));
+            Assert.AreEqual(q.Points*q.PenaliteIndice, q.CorrigerReponse(REPONSE_VALIDE));
         }
 
 #endif

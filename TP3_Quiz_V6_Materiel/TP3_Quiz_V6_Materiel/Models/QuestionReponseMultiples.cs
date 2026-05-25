@@ -23,21 +23,18 @@ namespace Models
         public List<string> Option {  get; set; }
 
         public QuestionReponseMultiples(string enonce, Categorie categorie, int points,
-     List<string> bonneReponse, List<string> options)
-
+     List <string> bonneReponse, List<string> options)  
+      : base(enonce, categorie, points)
         {
-            Enonce = enonce;
-            Categorie = categorie;
-            Points = points;
+            Options = options;          
             BonneReponse = bonneReponse;
-            Option = options;
         }
         public List<string> Options
         {
             get { return m_option; }
             set
             {
-                if (value == null) { throw new ArgumentNullException(); }
+                if (value == null ) { throw new ArgumentNullException(); }
 
                 if (value.Count < 2)
                 {
@@ -57,8 +54,36 @@ namespace Models
         public override bool ValiderReponse(string reponse)
         {
             if (reponse == null) return false;
-            return reponse.Trim().ToLower() == BonneReponse.Trim().ToLower();
+            
+
+            List<string> reponsesEleve = new List<string>(reponse.Split(','));
+
+            if (reponsesEleve.Count != BonneReponse.Count ) return false;
+
+            for (int i = 0; i < BonneReponse.Count; i++)
+            {
+                if (reponsesEleve[i].Trim().ToLower() != BonneReponse[i].Trim().ToLower())
+                    return false;
+            }
+
+            return true;
+
         }
-        public abstract void MelangerOptions();
+
+        public  void MelangerOptions(List<string>liste) 
+        {
+            Random random = new Random();
+            int nbPermutations = liste.Count * 4;
+
+            for (int k = 0; k < nbPermutations; k++)
+            {
+                int i = random.Next(liste.Count);
+                int j = random.Next(liste.Count);
+
+                string temp = liste[i];
+                liste[i] = liste[j];
+                liste[j] = temp;
+            }
+        }
     }
 }

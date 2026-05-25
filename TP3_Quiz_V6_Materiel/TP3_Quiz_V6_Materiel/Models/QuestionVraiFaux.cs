@@ -10,10 +10,8 @@ namespace Models
     public class QuestionVraiFaux:Question
     {
         private bool m_bonneReponse;
-        public string Enonce { get; set; }
-        public Categorie Categorie { get; set; }
-        public int Points { get; set; }
-        public bool BonneReponse
+       
+        public  bool BonneReponse
         {
             get { return m_bonneReponse; }
             set { m_bonneReponse = value; }
@@ -21,18 +19,11 @@ namespace Models
 
 
 
-        public QuestionVraiFaux(string enonce,
-                                Categorie categorie,
-                                int points,
-                                bool bonneReponse)
-
+        public QuestionVraiFaux(string enonce, Categorie categorie, int points, bool bonneReponse)
+       : base(enonce, categorie, points)  
         {
-            Enonce = enonce;
-            Categorie = categorie;
-            Points = points;
-            BonneReponse = bonneReponse;
+            BonneReponse = bonneReponse; 
         }
-
         public override double CorrigerReponse(string reponse)
         {
 

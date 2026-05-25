@@ -34,14 +34,13 @@ namespace Models
                     "Combien de bits contient un octet?",
                     Categorie.Programmation, 2, 8),
 
-                new QuestionReponseCourte(
-                    "Quelle est la capitale du Canada?",
-                    Categorie.CultureGenerale, 2, "Ottawa"),
+                 new QuestionReponseCourte(
+                 "Quelle est la capitale du Canada?",
+                    Categorie.CultureGenerale, 2, "Ottawa", "C'est une ville en Ontario", 0.5),
 
                 new QuestionReponseCourte(
-                    "Quel mot-clé permet de créer un objet en C#?",
-                    Categorie.Programmation, 2, "new"),
-
+                "Quel mot-clé permet de créer un objet en C#?",
+                    Categorie.Programmation, 2, "new", "C'est un mot réservé du langage", 0.5),
                 new QuestionReponseUnique(
                     "Quelle est la capitale de la France?",
                     Categorie.CultureGenerale, 3, "Paris",

@@ -21,18 +21,7 @@ namespace Models
         public Categorie Categorie { get; set; }
         public int Points { get; }
         public List<string> Option { get; set; }
-        public QuestionReponseUnique(string enonce,
-                               Categorie categorie,
-                               int points,
-                               string bonneReponse,List<string> pOtion)
-
-        {
-            Enonce = enonce;
-            Categorie = categorie;
-            Points = points;
-            BonneReponse = bonneReponse;
-            Option = pOtion;
-        }
+        
         public List<string> Options
         {
             get { return m_option; }
@@ -48,6 +37,13 @@ namespace Models
                 m_option = value;
             }
         }
+        public QuestionReponseUnique(string enonce, Categorie categorie, int points,
+     string bonneReponse, List<string> options)  
+     : base(enonce, categorie, points)
+        {
+            Options = options;          
+            BonneReponse = bonneReponse;
+        }
         public override double CorrigerReponse(string reponse)
         {
             if (reponse == null) return 0;
@@ -61,7 +57,7 @@ namespace Models
             return reponse.Trim().ToLower() == BonneReponse.Trim().ToLower();
         }
 
-        public abstract void MelangerOptions();
+        public void MelangerOptions() { }
 
     }
 }

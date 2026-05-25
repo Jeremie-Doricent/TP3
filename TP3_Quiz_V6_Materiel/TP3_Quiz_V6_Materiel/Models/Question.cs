@@ -9,9 +9,10 @@ namespace Models
 {
     public abstract  class Question : IQuestion
     {
+        private double m_bonneReponse;
         private string m_enonce;
         private int m_point;
-        public string Enonce
+        public virtual string Enonce
         {
             get { return m_enonce; }
             set
@@ -22,20 +23,33 @@ namespace Models
             }
         }
 
-        public Categorie Categorie { get; }
-        public int Points
+        public virtual Categorie Categorie { get; }
+        public virtual int Points
         {
             get { return m_point; }
             set
             {
-                if (value < 0)
-                { throw new ArgumentException(); }
+                if (value <= 0)
+                { throw new ArgumentOutOfRangeException(); }
 
                 m_point = value;
             }
 
         }
-        public List<string> Option { get; }
+        public double BonneReponse
+        {
+            get { return m_bonneReponse; }
+            set { m_bonneReponse = value; }
+        }
+
+        public Question(string enonce, Categorie categorie, int points)
+        {
+            Enonce = enonce;
+            Categorie = categorie;
+            Points = points;
+        }
+
+     
         public abstract bool ValiderReponse(string reponse);
         public abstract double CorrigerReponse(string reponse);
     }

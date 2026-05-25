@@ -101,11 +101,10 @@ namespace Models
             {
                 // TODO QUIZ 1: Calculer et retourner le score total obtenu par l'utilisateur
                 // en parcourant toutes les questions et en utilisant la méthode CorrigerReponse.
-
                 double score = 0;
-                foreach (Question question in Questions) {
-                    score += question.CorrigerReponse(Reponses);
-                
+                for (int a = 0; a < Reponses.Count; a++)
+                {
+                    score += Questions[a].CorrigerReponse(Reponses[a]);
                 }
                 return score;
             }
@@ -142,15 +141,14 @@ namespace Models
                 // en vérifiant chaque réponse avec la méthode ValiderReponse.
 
 
-                int score = 0;
-                foreach (Question item in Questions)
+            int score = 0;
+                for (int a = 0; a < Reponses.Count; a++)
                 {
-                   if (item.ValiderReponse(Reponses))
+                    if (Questions[a].ValiderReponse(Reponses[a]))
                     {
                         score++;
                     }
                 }
-
                 return score;
 
             }

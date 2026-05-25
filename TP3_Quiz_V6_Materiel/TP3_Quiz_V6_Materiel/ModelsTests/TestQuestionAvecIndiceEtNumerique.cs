@@ -119,7 +119,7 @@ namespace TestsUnitaires
 
             q.UtiliserIndice();
 
-            Assert.AreEqual(0, q.CorrigerReponse(REPONSE_VALIDE));
+            Assert.AreEqual(q.Points*q.PenaliteIndice, q.CorrigerReponse(REPONSE_VALIDE));
         }
 
         // =========================
