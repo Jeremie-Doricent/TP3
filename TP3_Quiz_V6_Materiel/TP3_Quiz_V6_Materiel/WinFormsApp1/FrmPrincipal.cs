@@ -23,11 +23,10 @@ namespace WinFormsApp1
 
         private void btnGenererQuiz_Click(object sender, EventArgs e)
         {
-           
+            
 
             // TODO FP 1 : Générer un quiz à partir de la banque de questions,
             // puis ouvrir le formulaire FrmQuiz.
-           
 
         }
     }

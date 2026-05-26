@@ -16,11 +16,16 @@ namespace Models
         public string BonneReponse
         {
             get { return m_bonneReponse; }
-            set { m_bonneReponse = value; }
-        }
+            set
+            {
+                if (!Options.Contains(value))
+                    throw new ArgumentException();
+                m_bonneReponse = value;
+            }
+            }
         public Categorie Categorie { get; set; }
         public int Points { get; }
-        public List<string> Option { get; set; }
+        
         
         public List<string> Options
         {
@@ -43,6 +48,8 @@ namespace Models
         {
             Options = options;          
             BonneReponse = bonneReponse;
+
+            
         }
         public override double CorrigerReponse(string reponse)
         {

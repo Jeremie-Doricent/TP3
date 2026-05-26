@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-  public class QuestionReponseMultiples : Question
+  public class QuestionReponsesMultiples : Question
     {
         private List<string> m_bonneReponse;
 
@@ -17,12 +17,28 @@ namespace Models
         public List<string> BonneReponse
         {
             get { return m_bonneReponse; }
-            set { m_bonneReponse = value; }
-        }
+            set { 
+                if(value == null  )
+                {
+                    throw new ArgumentNullException();
+                }
+                if(value.Count == 0)
+                {
+                    throw new ArgumentException();
+                }
+                foreach (string rep in value)
+                {
+                    if (!Options.Contains(rep))
+                        throw new ArgumentException();
+                    
+                }
 
+                m_bonneReponse = value;
+            }
+        }
         public List<string> Option {  get; set; }
 
-        public QuestionReponseMultiples(string enonce, Categorie categorie, int points,
+        public QuestionReponsesMultiples(string enonce, Categorie categorie, int points,
      List <string> bonneReponse, List<string> options)  
       : base(enonce, categorie, points)
         {
@@ -38,7 +54,7 @@ namespace Models
 
                 if (value.Count < 2)
                 {
-                    throw new ArgumentException("Il faut au moins 2 options.");
+                    throw new ArgumentException();
                 }
 
                 m_option = value;
@@ -54,21 +70,21 @@ namespace Models
         public override bool ValiderReponse(string reponse)
         {
             if (reponse == null) return false;
-            
 
             List<string> reponsesEleve = new List<string>(reponse.Split(','));
 
-            if (reponsesEleve.Count != BonneReponse.Count ) return false;
+            if (reponsesEleve.Count != BonneReponse.Count) return false;
 
-            for (int i = 0; i < BonneReponse.Count; i++)
+            foreach (string rep in reponsesEleve)
             {
-                if (reponsesEleve[i].Trim().ToLower() != BonneReponse[i].Trim().ToLower())
+                if (!BonneReponse.Contains(rep.Trim()))
                     return false;
             }
 
             return true;
-
         }
+
+        
 
         public  void MelangerOptions(List<string>liste) 
         {

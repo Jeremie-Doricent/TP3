@@ -26,13 +26,13 @@ namespace Models
                     "La terre est plus grande que le soleil.",
                     Categorie.CultureGenerale, 1, false),
 
-                new QuestionNumerique(
-                    "Quelle est la valeur approximative de PI (2 décimales)?",
-                    Categorie.Mathematiques, 2, 3.14),
+                      new QuestionNumerique(
+                 "Quelle est la valeur approximative de PI (2 décimales)?",
+                 Categorie.Mathematiques, 2, 3.14, "C'est un nombre irrationnel", 0.5),
 
-                new QuestionNumerique(
-                    "Combien de bits contient un octet?",
-                    Categorie.Programmation, 2, 8),
+            new QuestionNumerique(
+            "Combien de bits contient un octet?",
+                 Categorie.Programmation, 2, 8, "C'est une puissance de 2", 0.5),
 
                  new QuestionReponseCourte(
                  "Quelle est la capitale du Canada?",
@@ -51,13 +51,13 @@ namespace Models
                     Categorie.Programmation, 3, "//",
                     new List<string> { "//", "/*", "#", "--" }),
 
-                new QuestionReponseMultiples(
+                new QuestionReponsesMultiples(
                     "Quels sont des types de données en C#?",
                     Categorie.Programmation, 4,
                     new List<string> { "int", "string", "bool" },
                     new List<string> { "int", "string", "bool", "excel", "word" }),
 
-                new QuestionReponseMultiples(
+                new QuestionReponsesMultiples(
                     "Quels pays sont en Europe?",
                     Categorie.CultureGenerale, 4,
                     new List<string> { "France", "Italie" },

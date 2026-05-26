@@ -3,36 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{103A0384-D415-47F6-898F-1FB08FD365A1}|Models\\Models.csproj|c:\\users\\6325048\\desktop\\tp3\\tp3_quiz_v6_materiel\\tp3_quiz_v6_materiel\\models\\questionreponsecourte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{103A0384-D415-47F6-898F-1FB08FD365A1}|Models\\Models.csproj|solutionrelative:models\\questionreponsecourte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{103A0384-D415-47F6-898F-1FB08FD365A1}|Models\\Models.csproj|c:\\users\\6325048\\desktop\\tp3\\tp3_quiz_v6_materiel\\tp3_quiz_v6_materiel\\models\\questionreponsemultiples.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{103A0384-D415-47F6-898F-1FB08FD365A1}|Models\\Models.csproj|solutionrelative:models\\questionreponsemultiples.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C2C9E80-E8BB-4E40-A2C4-9828C08D6032}|ModelsTests\\ModelsTests.csproj|c:\\users\\6325048\\desktop\\tp3\\tp3_quiz_v6_materiel\\tp3_quiz_v6_materiel\\modelstests\\testquestionreponsecourte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C2C9E80-E8BB-4E40-A2C4-9828C08D6032}|ModelsTests\\ModelsTests.csproj|solutionrelative:modelstests\\testquestionreponsecourte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{103A0384-D415-47F6-898F-1FB08FD365A1}|Models\\Models.csproj|c:\\users\\6325048\\desktop\\tp3\\tp3_quiz_v6_materiel\\tp3_quiz_v6_materiel\\models\\questionreponseunique.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{103A0384-D415-47F6-898F-1FB08FD365A1}|Models\\Models.csproj|solutionrelative:models\\questionreponseunique.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECB3604D-7C97-4F14-8F86-5D72B48C5BD4}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\6325048\\desktop\\tp3\\tp3_quiz_v6_materiel\\tp3_quiz_v6_materiel\\winformsapp1\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECB3604D-7C97-4F14-8F86-5D72B48C5BD4}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C2C9E80-E8BB-4E40-A2C4-9828C08D6032}|ModelsTests\\ModelsTests.csproj|c:\\users\\6325048\\desktop\\tp3\\tp3_quiz_v6_materiel\\tp3_quiz_v6_materiel\\modelstests\\testquestionreponsesmultiples.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C2C9E80-E8BB-4E40-A2C4-9828C08D6032}|ModelsTests\\ModelsTests.csproj|solutionrelative:modelstests\\testquestionreponsesmultiples.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C2C9E80-E8BB-4E40-A2C4-9828C08D6032}|ModelsTests\\ModelsTests.csproj|c:\\users\\6325048\\desktop\\tp3\\tp3_quiz_v6_materiel\\tp3_quiz_v6_materiel\\modelstests\\testquestionavecindiceetreponseunique.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C2C9E80-E8BB-4E40-A2C4-9828C08D6032}|ModelsTests\\ModelsTests.csproj|solutionrelative:modelstests\\testquestionavecindiceetreponseunique.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{103A0384-D415-47F6-898F-1FB08FD365A1}|Models\\Models.csproj|c:\\users\\6325048\\desktop\\tp3\\tp3_quiz_v6_materiel\\tp3_quiz_v6_materiel\\models\\banquedequestions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{103A0384-D415-47F6-898F-1FB08FD365A1}|Models\\Models.csproj|solutionrelative:models\\banquedequestions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{103A0384-D415-47F6-898F-1FB08FD365A1}|Models\\Models.csproj|c:\\users\\6325048\\desktop\\tp3\\tp3_quiz_v6_materiel\\tp3_quiz_v6_materiel\\models\\questionnumerique.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{103A0384-D415-47F6-898F-1FB08FD365A1}|Models\\Models.csproj|solutionrelative:models\\questionnumerique.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8C2C9E80-E8BB-4E40-A2C4-9828C08D6032}|ModelsTests\\ModelsTests.csproj|c:\\users\\6325048\\desktop\\tp3\\tp3_quiz_v6_materiel\\tp3_quiz_v6_materiel\\modelstests\\testquestionreponsecourte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C2C9E80-E8BB-4E40-A2C4-9828C08D6032}|ModelsTests\\ModelsTests.csproj|solutionrelative:modelstests\\testquestionreponsecourte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{103A0384-D415-47F6-898F-1FB08FD365A1}|Models\\Models.csproj|c:\\users\\6325048\\desktop\\tp3\\tp3_quiz_v6_materiel\\tp3_quiz_v6_materiel\\models\\questionreponsemultiples.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{103A0384-D415-47F6-898F-1FB08FD365A1}|Models\\Models.csproj|solutionrelative:models\\questionreponsemultiples.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{103A0384-D415-47F6-898F-1FB08FD365A1}|Models\\Models.csproj|c:\\users\\6325048\\desktop\\tp3\\tp3_quiz_v6_materiel\\tp3_quiz_v6_materiel\\models\\ireponsecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{103A0384-D415-47F6-898F-1FB08FD365A1}|Models\\Models.csproj|solutionrelative:models\\ireponsecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8C2C9E80-E8BB-4E40-A2C4-9828C08D6032}|ModelsTests\\ModelsTests.csproj|c:\\users\\6325048\\desktop\\tp3\\tp3_quiz_v6_materiel\\tp3_quiz_v6_materiel\\modelstests\\testquestionetvraifaux.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C2C9E80-E8BB-4E40-A2C4-9828C08D6032}|ModelsTests\\ModelsTests.csproj|solutionrelative:modelstests\\testquestionetvraifaux.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8C2C9E80-E8BB-4E40-A2C4-9828C08D6032}|ModelsTests\\ModelsTests.csproj|c:\\users\\6325048\\desktop\\tp3\\tp3_quiz_v6_materiel\\tp3_quiz_v6_materiel\\modelstests\\testquestionavecindiceetnumerique.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C2C9E80-E8BB-4E40-A2C4-9828C08D6032}|ModelsTests\\ModelsTests.csproj|solutionrelative:modelstests\\testquestionavecindiceetnumerique.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C2C9E80-E8BB-4E40-A2C4-9828C08D6032}|ModelsTests\\ModelsTests.csproj|c:\\users\\6325048\\desktop\\tp3\\tp3_quiz_v6_materiel\\tp3_quiz_v6_materiel\\modelstests\\testquestionetvraifaux.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C2C9E80-E8BB-4E40-A2C4-9828C08D6032}|ModelsTests\\ModelsTests.csproj|solutionrelative:modelstests\\testquestionetvraifaux.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{103A0384-D415-47F6-898F-1FB08FD365A1}|Models\\Models.csproj|c:\\users\\6325048\\desktop\\tp3\\tp3_quiz_v6_materiel\\tp3_quiz_v6_materiel\\models\\questionnumerique.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{103A0384-D415-47F6-898F-1FB08FD365A1}|Models\\Models.csproj|solutionrelative:models\\questionnumerique.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{103A0384-D415-47F6-898F-1FB08FD365A1}|Models\\Models.csproj|c:\\users\\6325048\\desktop\\tp3\\tp3_quiz_v6_materiel\\tp3_quiz_v6_materiel\\models\\questionreponsecourte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{103A0384-D415-47F6-898F-1FB08FD365A1}|Models\\Models.csproj|solutionrelative:models\\questionreponsecourte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{103A0384-D415-47F6-898F-1FB08FD365A1}|Models\\Models.csproj|c:\\users\\6325048\\desktop\\tp3\\tp3_quiz_v6_materiel\\tp3_quiz_v6_materiel\\models\\ireponsecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{103A0384-D415-47F6-898F-1FB08FD365A1}|Models\\Models.csproj|solutionrelative:models\\ireponsecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{103A0384-D415-47F6-898F-1FB08FD365A1}|Models\\Models.csproj|c:\\users\\6325048\\desktop\\tp3\\tp3_quiz_v6_materiel\\tp3_quiz_v6_materiel\\models\\questionvraifaux.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,20 +59,8 @@
       "RelativeMoniker": "D:0:0:{103A0384-D415-47F6-898F-1FB08FD365A1}|Models\\Models.csproj|solutionrelative:models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{103A0384-D415-47F6-898F-1FB08FD365A1}|Models\\Models.csproj|c:\\users\\6325048\\desktop\\tp3\\tp3_quiz_v6_materiel\\tp3_quiz_v6_materiel\\models\\questionreponseunique.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{103A0384-D415-47F6-898F-1FB08FD365A1}|Models\\Models.csproj|solutionrelative:models\\questionreponseunique.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{103A0384-D415-47F6-898F-1FB08FD365A1}|Models\\Models.csproj|c:\\users\\6325048\\desktop\\tp3\\tp3_quiz_v6_materiel\\tp3_quiz_v6_materiel\\models\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{103A0384-D415-47F6-898F-1FB08FD365A1}|Models\\Models.csproj|solutionrelative:models\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C2C9E80-E8BB-4E40-A2C4-9828C08D6032}|ModelsTests\\ModelsTests.csproj|c:\\users\\6325048\\desktop\\tp3\\tp3_quiz_v6_materiel\\tp3_quiz_v6_materiel\\modelstests\\testquestionavecindiceetreponseunique.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C2C9E80-E8BB-4E40-A2C4-9828C08D6032}|ModelsTests\\ModelsTests.csproj|solutionrelative:modelstests\\testquestionavecindiceetreponseunique.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ECB3604D-7C97-4F14-8F86-5D72B48C5BD4}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\6325048\\desktop\\tp3\\tp3_quiz_v6_materiel\\tp3_quiz_v6_materiel\\winformsapp1\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ECB3604D-7C97-4F14-8F86-5D72B48C5BD4}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ECB3604D-7C97-4F14-8F86-5D72B48C5BD4}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\winformsapp1\\frmquiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -74,92 +78,118 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "TestQuestionReponseCourte.cs",
               "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\ModelsTests\\TestQuestionReponseCourte.cs",
               "RelativeDocumentMoniker": "ModelsTests\\TestQuestionReponseCourte.cs",
               "ToolTip": "C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\ModelsTests\\TestQuestionReponseCourte.cs",
               "RelativeToolTip": "ModelsTests\\TestQuestionReponseCourte.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAADwv2EAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-25T18:33:35.935Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TestQuestionAvecIndiceEtNumerique.cs",
-              "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\ModelsTests\\TestQuestionAvecIndiceEtNumerique.cs",
-              "RelativeDocumentMoniker": "ModelsTests\\TestQuestionAvecIndiceEtNumerique.cs",
-              "ToolTip": "C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\ModelsTests\\TestQuestionAvecIndiceEtNumerique.cs",
-              "RelativeToolTip": "ModelsTests\\TestQuestionAvecIndiceEtNumerique.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T16:48:02.674Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "QuestionNumerique.cs",
-              "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\Models\\QuestionNumerique.cs",
-              "RelativeDocumentMoniker": "Models\\QuestionNumerique.cs",
-              "ToolTip": "C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\Models\\QuestionNumerique.cs",
-              "RelativeToolTip": "Models\\QuestionNumerique.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwCIAAAAtAAAAAAAAAA==",
+              "Title": "TestQuestionReponsesMultiples.cs",
+              "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\ModelsTests\\TestQuestionReponsesMultiples.cs",
+              "RelativeDocumentMoniker": "ModelsTests\\TestQuestionReponsesMultiples.cs",
+              "ToolTip": "C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\ModelsTests\\TestQuestionReponsesMultiples.cs",
+              "RelativeToolTip": "ModelsTests\\TestQuestionReponsesMultiples.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAqwGkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T20:28:59.564Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IReponsecs.cs",
-              "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\Models\\IReponsecs.cs",
-              "RelativeDocumentMoniker": "Models\\IReponsecs.cs",
-              "ToolTip": "C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\Models\\IReponsecs.cs",
-              "RelativeToolTip": "Models\\IReponsecs.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T20:26:57.61Z"
+              "WhenOpened": "2026-05-26T22:02:55.375Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "QuestionReponseCourte.cs",
-              "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\Models\\QuestionReponseCourte.cs",
-              "RelativeDocumentMoniker": "Models\\QuestionReponseCourte.cs",
-              "ToolTip": "C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\Models\\QuestionReponseCourte.cs",
-              "RelativeToolTip": "Models\\QuestionReponseCourte.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAwwD4AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T20:27:17.431Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "QuestionReponseMultiples.cs",
               "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\Models\\QuestionReponseMultiples.cs",
               "RelativeDocumentMoniker": "Models\\QuestionReponseMultiples.cs",
               "ToolTip": "C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\Models\\QuestionReponseMultiples.cs",
               "RelativeToolTip": "Models\\QuestionReponseMultiples.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAIwBkAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T20:07:47.288Z"
+              "WhenOpened": "2026-05-06T20:07:47.288Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "BanqueDeQuestions.cs",
               "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\Models\\BanqueDeQuestions.cs",
               "RelativeDocumentMoniker": "Models\\BanqueDeQuestions.cs",
               "ToolTip": "C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\Models\\BanqueDeQuestions.cs",
               "RelativeToolTip": "Models\\BanqueDeQuestions.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAgwCoAAABfAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwDsAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-25T18:21:56.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QuestionReponseUnique.cs",
+              "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\Models\\QuestionReponseUnique.cs",
+              "RelativeDocumentMoniker": "Models\\QuestionReponseUnique.cs",
+              "ToolTip": "C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\Models\\QuestionReponseUnique.cs",
+              "RelativeToolTip": "Models\\QuestionReponseUnique.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T20:05:16.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TestQuestionAvecIndiceEtReponseUnique.cs",
+              "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\ModelsTests\\TestQuestionAvecIndiceEtReponseUnique.cs",
+              "RelativeDocumentMoniker": "ModelsTests\\TestQuestionAvecIndiceEtReponseUnique.cs",
+              "ToolTip": "C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\ModelsTests\\TestQuestionAvecIndiceEtReponseUnique.cs",
+              "RelativeToolTip": "ModelsTests\\TestQuestionAvecIndiceEtReponseUnique.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAQwAAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T16:50:59.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\WinFormsApp1\\FrmPrincipal.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\FrmPrincipal.cs",
+              "ToolTip": "C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\WinFormsApp1\\FrmPrincipal.cs",
+              "RelativeToolTip": "WinFormsApp1\\FrmPrincipal.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T18:37:09.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "QuestionNumerique.cs",
+              "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\Models\\QuestionNumerique.cs",
+              "RelativeDocumentMoniker": "Models\\QuestionNumerique.cs",
+              "ToolTip": "C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\Models\\QuestionNumerique.cs",
+              "RelativeToolTip": "Models\\QuestionNumerique.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T20:28:59.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TestQuestionAvecIndiceEtNumerique.cs",
+              "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\ModelsTests\\TestQuestionAvecIndiceEtNumerique.cs",
+              "RelativeDocumentMoniker": "ModelsTests\\TestQuestionAvecIndiceEtNumerique.cs",
+              "ToolTip": "C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\ModelsTests\\TestQuestionAvecIndiceEtNumerique.cs",
+              "RelativeToolTip": "ModelsTests\\TestQuestionAvecIndiceEtNumerique.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T16:48:02.674Z"
             },
             {
               "$type": "Document",
@@ -175,7 +205,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
+              "Title": "QuestionReponseCourte.cs",
+              "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\Models\\QuestionReponseCourte.cs",
+              "RelativeDocumentMoniker": "Models\\QuestionReponseCourte.cs",
+              "ToolTip": "C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\Models\\QuestionReponseCourte.cs",
+              "RelativeToolTip": "Models\\QuestionReponseCourte.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwD4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T20:27:17.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IReponsecs.cs",
+              "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\Models\\IReponsecs.cs",
+              "RelativeDocumentMoniker": "Models\\IReponsecs.cs",
+              "ToolTip": "C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\Models\\IReponsecs.cs",
+              "RelativeToolTip": "Models\\IReponsecs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T20:26:57.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "QuestionVraiFaux.cs",
               "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\Models\\QuestionVraiFaux.cs",
               "RelativeDocumentMoniker": "Models\\QuestionVraiFaux.cs",
@@ -187,19 +241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "QuestionReponseUnique.cs",
-              "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\Models\\QuestionReponseUnique.cs",
-              "RelativeDocumentMoniker": "Models\\QuestionReponseUnique.cs",
-              "ToolTip": "C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\Models\\QuestionReponseUnique.cs",
-              "RelativeToolTip": "Models\\QuestionReponseUnique.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAIwCcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T20:05:16.519Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "Quiz.cs",
               "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\Models\\Quiz.cs",
               "RelativeDocumentMoniker": "Models\\Quiz.cs",
@@ -211,7 +253,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "Question.cs",
               "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\Models\\Question.cs",
               "RelativeDocumentMoniker": "Models\\Question.cs",
@@ -223,32 +265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "TestQuestionAvecIndiceEtReponseUnique.cs",
-              "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\ModelsTests\\TestQuestionAvecIndiceEtReponseUnique.cs",
-              "RelativeDocumentMoniker": "ModelsTests\\TestQuestionAvecIndiceEtReponseUnique.cs",
-              "ToolTip": "C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\ModelsTests\\TestQuestionAvecIndiceEtReponseUnique.cs",
-              "RelativeToolTip": "ModelsTests\\TestQuestionAvecIndiceEtReponseUnique.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAQwC0AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T16:50:59.201Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "FrmPrincipal.cs",
-              "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\WinFormsApp1\\FrmPrincipal.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\FrmPrincipal.cs",
-              "ToolTip": "C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\WinFormsApp1\\FrmPrincipal.cs",
-              "RelativeToolTip": "WinFormsApp1\\FrmPrincipal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T18:37:09.218Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "FrmQuiz.cs [Conception]",
               "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\WinFormsApp1\\FrmQuiz.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\FrmQuiz.cs",
@@ -259,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "FrmPrincipal.cs [Conception]",
               "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP3\\TP3_Quiz_V6_Materiel\\TP3_Quiz_V6_Materiel\\WinFormsApp1\\FrmPrincipal.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\FrmPrincipal.cs",

@@ -17,7 +17,7 @@ namespace Models
             get { return m_indice; }
             set
             {
-                if (string.IsNullOrWhiteSpace(value))
+                if (value ==null || value =="")
                     throw new ArgumentException("L'indice ne peut pas être null, vide ou espaces.");
                 m_indice = value;
             }
@@ -35,9 +35,9 @@ namespace Models
         public bool IndiceUtilise { get; set; }
        
 
-        public string Enonce { get; set; }
-        public Categorie Categorie { get; set; }
-        public int Points { get; set; }
+        public override string Enonce { get; set; }
+        public  Categorie Categorie { get; set; }
+        public override int Points { get; set; }
         public double BonneReponse
         {
             get { return m_bonneReponse; }
@@ -46,17 +46,24 @@ namespace Models
 
 
 
-        public QuestionNumerique(string enonce, Categorie categorie, int points, double bonneReponse)
+        public QuestionNumerique(string enonce, Categorie categorie, int points, double bonneReponse,string indice , double penaliter)
     : base(enonce, categorie, points) 
         {
             BonneReponse = bonneReponse;  
+            Indice =indice;
+            PenaliteIndice=penaliter;
+
         }
         public override double CorrigerReponse(string reponse)
         {
             bool estValide = double.TryParse(reponse, out double val);
             if (!estValide) return 0;
-
-            return val == BonneReponse ? Points : 0;
+            if(IndiceUtilise)
+            {
+                return Points*PenaliteIndice;
+            }
+            if (ValiderReponse(reponse)) return Points;
+            return 0;
         }
 
         public override bool ValiderReponse(string reponse)
@@ -64,7 +71,7 @@ namespace Models
             bool estDouble = double.TryParse(reponse, out double val);
             if (estDouble)
                 return val == BonneReponse;
-
+            
             return false;
         }
         public void UtiliserIndice()
